@@ -1,4 +1,5 @@
 import React from "react";
+import links from "../components/links";
 
 function About(props) {
   return (
@@ -6,7 +7,8 @@ function About(props) {
       <h2>About Me</h2>
       <p>{props.bio}</p>
       <img src="https://i.imgur.com/mV8PQxj.gif" alt="I made this" />
-      <links/>
+      <p>{props.github}</p>
+      <p>{props.linkedin}</p>
     </div>
   );
 }
