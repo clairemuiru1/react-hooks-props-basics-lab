@@ -1,5 +1,5 @@
 import React from "react";
-import links from "../components/links";
+import links from "./links";
 
 function About(props) {
   return (
