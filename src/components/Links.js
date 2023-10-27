@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Links(props) {
+function Link(props) {
   return (
     <div>
         <h3>links</h3>
@@ -10,4 +10,4 @@ function Links(props) {
   )
 }
 
-export default Links
+export default Link
